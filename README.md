@@ -1,15 +1,7 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="GEO-SEO Claude Code Skill" width="900"/>
-</p>
+> **GEO-first, SEO-supported.** Optimize websites for AI-powered search engines
+> (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) while maintaining traditional SEO foundations.
 
-<p align="center">
-  <strong>GEO-first, SEO-supported.</strong> Optimize websites for AI-powered search engines<br/>
-  (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) while maintaining traditional SEO foundations.
-</p>
-
-<p align="center">
-  AI search is eating traditional search. This tool optimizes for where traffic is going, not where it was.
-</p>
+AI search is replacing traditional search. This toolkit optimizes for where traffic is heading, not where it's been.
 
 ---
 
@@ -31,14 +23,14 @@
 ### One-Command Install (macOS/Linux)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/geo-seo-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/geo-seo-premium/main/install.sh | bash
 ```
 
 ### Manual Install
 
 ```bash
-git clone https://github.com/zubair-trabzada/geo-seo-claude.git
-cd geo-seo-claude
+git clone https://github.com/DamianDanelczyk/geo-seo-premium.git
+cd geo-seo-premium
 ./install.sh
 ```
 
@@ -48,11 +40,11 @@ Requires [Git for Windows](https://git-scm.com/downloads) which includes Git Bas
 
 ```bash
 # Option 1: One-command install (run from Git Bash, not PowerShell/CMD)
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/geo-seo-claude/main/install-win.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/geo-seo-premium/main/install-win.sh | bash
 
 # Option 2: Manual install
-git clone https://github.com/zubair-trabzada/geo-seo-claude.git
-cd geo-seo-claude
+git clone https://github.com/DamianDanelczyk/geo-seo-premium.git
+cd geo-seo-premium
 ./install-win.sh
 ```
 
@@ -101,7 +93,7 @@ Open Claude Code and use these commands:
 ## Architecture
 
 ```
-geo-seo-claude/
+geo-seo-premium/
 ├── geo/                          # Main skill orchestrator
 │   └── SKILL.md                  # Primary skill file with commands & routing
 ├── skills/                       # 13 specialized sub-skills
@@ -238,32 +230,16 @@ rm -rf ~/.claude/skills/geo ~/.claude/skills/geo-* ~/.claude/agents/geo-*.md
 
 ---
 
-## Want to Turn This Into a Business?
-
-The tool is free. Learning how to monetize it is where the community comes in.
-
-**[Join the AI Workshop Community →](https://skool.com/aiworkshop)**
-
-Inside you'll get:
-- **Video walkthroughs** — Step-by-step setup, running audits, reading results
-- **Client acquisition playbook** — How to find prospects, pitch GEO services, and close deals
-- **Live office hours** — Bring your audit results, get direct help
-- **GEO agency pricing & templates** — Proposal docs, cold outreach scripts, onboarding workflows
-
-GEO agencies charge $2K–$12K/month. This tool does the audit. The community teaches you how to sell it.
-
----
-
 ## License
 
-MIT License
+MIT License — see [LICENSE](https://github.com/DamianDanelczyk/geo-seo-premium/blob/main/LICENSE) for details.
 
 ---
 
-## Contributing
-
-Contributions welcome!
-
----
-
-Built for the AI search era.
+<p align="center">
+  <strong>Part of the Claude Code Skills Series</strong><br>
+  <a href="https://github.com/DamianDanelczyk/ai-sales-team-premium">AI Sales Team</a> ·
+  <a href="https://github.com/DamianDanelczyk/ai-legal-team-claude">AI Legal Assistant</a> ·
+  <a href="https://github.com/DamianDanelczyk/ai-marketing-team-premium">AI Marketing Suite</a> ·
+  <strong>GEO-SEO</strong>
+</p>
